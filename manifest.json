@@ -1,0 +1,14 @@
+{
+"manifest_version": 2,
+"name": "Collector",
+"description": "Clip a screenshot of the things that inspire you on the web!",
+"version": "0.1",
+"browser_action": {
+    "icons": "temp.ico",
+    "default_popup": "popup.html",
+    "default_title": "Collector"
+},
+"permissions": [
+          "storage"
+]
+}
